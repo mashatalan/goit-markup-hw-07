@@ -13,23 +13,24 @@
           href=" https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
           integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.min.css"/>
+
 </head>
 
 <body>
 <!--Header-->
 <header class="header">
-    <div class="container header-container">
+    <div class="container header__container">
         <nav class="navigation">
-            <a class="logo link" href="./index.html"><span>Web</span>Studio</a>
+            <a class="logo header__logo link" href="./index.html"><span>Web</span>Studio</a>
             <ul class="nav-list list">
-                <li class="nav-list-item"><a class="nav-list-link link current" href="./index.html">Студия</a></li>
-                <li class="nav-list-item"><a class="nav-list-link link" href="./portfolio.html">Портфолио</a></li>
-                <li class="nav-list-item"><a class="nav-list-link link" href="">Контакты</a></li>
+                <li class="nav-list__item"><a class="nav-list__link link current" href="./index.html">Студия</a></li>
+                <li class="nav-list__item"><a class="nav-list__link link" href="./portfolio.html">Портфолио</a></li>
+                <li class="nav-list__item"><a class="nav-list__link link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="nav-contact-list contact-list list">
-            <li class="contact-list-item">
+        <ul class="contact-list list">
+            <li class="contact-list__item">
                 <a class="link" href="mailto:info@devstudio.com">
                     <svg class="social-icon" width="16" height="12">
                         <use href="./images/sprite.svg#envelope">
@@ -38,7 +39,7 @@
                     <span>info@devstudio.com</span>
                 </a>
             </li>
-            <li class="contact-list-item">
+            <li class="contact-list__item">
                 <a class="link" href="tel:+380961111111">
                     <svg class="social-icon" width="10" height="16">
                         <use href="./images/sprite.svg#smartphone">
@@ -54,35 +55,36 @@
 <main>
     <!--Hero-->
     <section class="hero">
-        <div class="container hero-container">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="button" type="button" data-modal-open>Заказать услугу</button>
+        <div class="container hero__container">
+            <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+            <button class="button hero__button" type="button" data-modal-open>Заказать услугу</button>
         </div>
     </section>
     <!--Benefits-->
     <section class="benefits section">
         <div class="container">
             <h2 class="visually-hidden">Преимущества компании</h2>
-            <ul class="list benefits-list">
-                <li class="benefits-list-item">
-                    <h3 class="benefits-title">Внимание к деталям</h3>
-                    <p class="benefits-description">Идейные соображения, а также начало повседневной работы по
+            <ul class="list benefits__list">
+                <li class="benefits__list-item">
+                    <h3 class="benefits__title">Внимание к деталям</h3>
+                    <p class="benefits__description">Идейные соображения, а также начало повседневной работы по
                         формированию
                         позиции.</p>
                 </li>
-                <li class="benefits-list-item">
-                    <h3 class="benefits-title">Пунктуальность</h3>
-                    <p class="benefits-description">Задача организации, в особенности же рамки и место обучения кадров
+                <li class="benefits__list-item">
+                    <h3 class="benefits__title">Пунктуальность</h3>
+                    <p class="benefits__description">Задача организации, в особенности же рамки и место обучения кадров
                         влечет за собой.</p>
                 </li>
-                <li class="benefits-list-item">
-                    <h3 class="benefits-title">Планирование</h3>
-                    <p class="benefits-description">Равным образом консультация с широким активом в значительной степени
+                <li class="benefits__list-item">
+                    <h3 class="benefits__title">Планирование</h3>
+                    <p class="benefits__description">Равным образом консультация с широким активом в значительной
+                        степени
                         обуславливает.</p>
                 </li>
-                <li class="benefits-list-item">
-                    <h3 class="benefits-title">Современные технологии</h3>
-                    <p class="benefits-description">Значимость этих проблем настолько очевидна, что реализация плановых
+                <li class="benefits__list-item">
+                    <h3 class="benefits__title">Современные технологии</h3>
+                    <p class="benefits__description">Значимость этих проблем настолько очевидна, что реализация плановых
                         заданий.</p>
                 </li>
             </ul>
@@ -91,27 +93,27 @@
     <!--Our activities-->
     <section class="activity section ">
         <div class="container">
-            <h2 class="activity-title">Чем мы занимаемся</h2>
-            <ul class="activity-list list ">
-                <li class="activity-list-item">
+            <h2 class="activity__title">Чем мы занимаемся</h2>
+            <ul class="activity__list list ">
+                <li class="activity__list-item">
                     <div class="holder">
                         <img src="./images/img1.jpg" alt="изображение 1" width="370"
                              height="294">
-                        <p class="desc">Десктопные приложения</p>
+                        <p class="holder__desc">Десктопные приложения</p>
                     </div>
                 </li>
-                <li class="activity-list-item">
+                <li class="activity__list-item">
                     <div class="holder">
                         <img src="./images/img2.jpg" alt="изображение 2" width="370"
                              height="294">
-                        <p class="desc">Мобильные приложения</p>
+                        <p class="holder__desc">Мобильные приложения</p>
                     </div>
                 </li>
-                <li class="activity-list-item">
+                <li class="activity__list-item">
                     <div class="holder">
                         <img src="./images/img3.jpg" alt="изображение 3" width="370"
                              height="294">
-                        <p class="desc">Дизайнерские решения</p>
+                        <p class="holder__desc">Дизайнерские решения</p>
                     </div>
                 </li>
             </ul>
@@ -120,14 +122,14 @@
     <!--Employees-->
     <section class="employees section">
         <div class="container">
-            <h2 class="employees-title">Наша команда</h2>
-            <ul class="employees-list list">
-                <li class="employees-list-item">
-                    <img class="employees-photo" src="./images/img4.jpg" alt="Игорь Демьяненко" width="270"
+            <h2 class="employees__title">Наша команда</h2>
+            <ul class="employees__list list">
+                <li class="employees__list-item">
+                    <img class="employees__photo" src="./images/img4.jpg" alt="Игорь Демьяненко" width="270"
                          height="260">
-                    <div class="container-employees">
-                        <h3 class="employees-name">Игорь Демьяненко</h3>
-                        <p class="employees-position">Product Designer</p>
+                    <div class="employees__container">
+                        <h3 class="employees__name">Игорь Демьяненко</h3>
+                        <p class="employees__position">Product Designer</p>
                         <ul class="social-list list">
                             <li class="social-list-item">
                                 <a class="link" href="">
@@ -164,11 +166,11 @@
                         </ul>
                     </div>
                 </li>
-                <li class="employees-list-item">
+                <li class="employees__list-item">
                     <img class="employees-photo" src="./images/img5.jpg" alt="Ольга Репина" width="270" height="260">
-                    <div class="container-employees">
-                        <h3 class="employees-name">Ольга Репина</h3>
-                        <p class="employees-position">Frontend Developer</p>
+                    <div class="employees__container">
+                        <h3 class="employees__name">Ольга Репина</h3>
+                        <p class="employees__position">Frontend Developer</p>
                         <ul class="social-list list">
                             <li class="social-list-item">
                                 <a class="link" href="">
@@ -205,11 +207,11 @@
                         </ul>
                     </div>
                 </li>
-                <li class="employees-list-item">
+                <li class="employees__list-item">
                     <img class="employees-photo" src="./images/img6.jpg" alt="Николай Тарасов" width="270" height="260">
-                    <div class="container-employees">
-                        <h3 class="employees-name">Николай Тарасов</h3>
-                        <p class="employees-position">Marketing</p>
+                    <div class="employees__container">
+                        <h3 class="employees__name">Николай Тарасов</h3>
+                        <p class="employees__position">Marketing</p>
                         <ul class="social-list list">
                             <li class="social-list-item">
                                 <a class="link" href="">
@@ -246,11 +248,11 @@
                         </ul>
                     </div>
                 </li>
-                <li class="employees-list-item">
+                <li class="employees__list-item">
                     <img class="employees-photo" src="./images/img7.jpg" alt="Михаил Ермаков" width="270" height="260">
-                    <div class="container-employees">
-                        <h3 class="employees-name">Михаил Ермаков</h3>
-                        <p class="employees-position">UI Designer</p>
+                    <div class="employees__container">
+                        <h3 class="employees__name">Михаил Ермаков</h3>
+                        <p class="employees__position">UI Designer</p>
                         <ul class="social-list list">
                             <li class="social-list-item">
                                 <a class="link" href="">

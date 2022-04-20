@@ -1,0 +1,52 @@
+.employees {
+  background-color: var(--bc-light);
+}
+
+
+.employees__container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.employees__position {
+  @include font(16px, 400, 19px);
+  text-align: center;
+  color: var(--color-primary);
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+
+.employees__title {
+  @include font(36px, 700, 42px);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.employees__name {
+  @include font(16px, 500, 19px);
+  text-align: center;
+}
+
+.employees__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.employees__list-item {
+  flex-basis: calc((100% - 90px) / 4);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+
+
+}
+
