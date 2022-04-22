@@ -453,7 +453,7 @@ textarea::placeholder {
   margin-right: auto;
   text-align: center;
   background-color: var(--bc-dark);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/hero.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -527,16 +527,16 @@ textarea::placeholder {
   margin-bottom: 30px;
 }
 .benefits__list-item:nth-child(1)::before {
-  background-image: url("../../images/svg/group1.svg");
+  background-image: url("/images/svg/group1.svg");
 }
 .benefits__list-item:nth-child(2)::before {
-  background-image: url("../../images/svg/group2.svg");
+  background-image: url("/images/svg/group2.svg");
 }
 .benefits__list-item:nth-child(3)::before {
-  background-image: url("../../images/svg/group3.svg");
+  background-image: url("/images/svg/group3.svg");
 }
 .benefits__list-item:nth-child(4)::before {
-  background-image: url("../../images/svg/group4.svg");
+  background-image: url("/images/svg/group4.svg");
 }
 
 .activity {
