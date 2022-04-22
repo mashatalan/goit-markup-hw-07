@@ -69,8 +69,8 @@
   margin-bottom: 20px;
 }
 
-.footer .container > div:last-child {
-  margin-left: 70px;
+.footer__address {
+  margin-right: 70px;
 }
 
 .footer .social-list-item a {
@@ -97,6 +97,9 @@
   fill: #FFFFFF;
 }
 
+.footer__form {
+  margin-left: auto;
+}
 .footer button {
   display: inline-block;
   color: var(--color-light);

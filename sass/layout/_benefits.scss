@@ -40,21 +40,21 @@
 
 
   &:nth-child(1)::before {
-    background-image: url("/images/svg/group1.svg");
+    background-image: url("../images/svg/group1.svg");
   }
 
 
   &:nth-child(2)::before {
-    background-image: url("/images/svg/group2.svg");
+    background-image: url("../images/svg/group2.svg");
   }
 
 
   &:nth-child(3)::before {
-    background-image: url("/images/svg/group3.svg");
+    background-image: url("../images/svg/group3.svg");
   }
 
   &:nth-child(4)::before {
-    background-image: url("/images/svg/group4.svg");
+    background-image: url("../images/svg/group4.svg");
   }
 
 
